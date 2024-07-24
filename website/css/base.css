@@ -1,119 +1,85 @@
-.kode-mono-cosmic {
-    font-family: "Kode Mono", monospace;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .acme-regular {
-    font-family: "Acme", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-body{
+body {
     background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
     color:aliceblue;
-    font-family: "Acme", sans-serif;
+    font-family: "Kode Mono", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-kerning:normal;
+    margin: 0;
 }
 
-p{
-    font-size:1.5rem;
-}
-h1, h2, h3, h4{
-    font-family: "Acme", sans-serif;
-    font-weight:700;
-
+p {
+    font-size: 1rem;
 }
 
-.logo{
-    width:20em;
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Acme", serif;
+    font-weight: 700;
 }
 
-.character{
-    width:500px;
+.logo {
+    width: 20em;
 }
 
-.cereal{
+.character {
+    width: 500px;
+}
+
+.cereal {
     margin-top:4rem;
-    width:600px;
+    width: 600px;
 }
 
-.nav-bar-wrapper{
+.nav-bar-wrapper {
     padding-top:2rem;
-
 }
 
-.nav-bar{
-
+.nav-bar {
     padding-left:2rem;
     background: radial-gradient(ellipse farthest-corner at 0% 0%, #124358, #042243 133%);
     height:70px;
 }
 
-.main-container{
-    /*background-image: url(../images/cereal-starfield.png);
-    background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);*/
-}
-
 .home-page-slat{
-   
     background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
     /*background: radial-gradient(ellipse farthest-corner at 0% 0%, #280941, #651886 133%);*/
     height: 48vw;
     max-height: 42em;
     min-height: 32em;
     overflow:hidden;
+    background-size: cover;
 }
-.hero-slat{
-    background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
+
+.home-page-slat > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem 2rem 2rem;
+}
+
+.slat-2 {
     background-image: url(../images/backgrounds/background-blue-stars.png);
-    background-size:cover;
-}
-.slat-content{
-    padding:4rem 2rem 2rem 2rem;
-    width:100%;
 }
 
-.slat-3{
-   
-    background-image: url(../images/cereal/cereal-starfield.png);
-    background-size:cover;
+.slat-3 {
+    background-image: url(../images/backgrounds/background-bluefade.png);
 }
 
-
-.slat-2{
-   
-    background-image: url(../images/cereal/cereal-starfield.png);
-    background-size:cover;
+.slat-3 > div {
+    flex-direction: row-reverse;
 }
 
-.slat-4{
+.slat-4 {
     background-image: url(../images/backgrounds/Planet-scape-002.png);
-    background-size:cover;
 }
 
-.slat-5{
+.slat-5 {
     background-image: url(../images/backgrounds/background-purple-stars.png);
-    background-size:cover;
 }
 
-.slat-6{
+.slat-6 {
     background-image: url(../images/backgrounds/background-teal-stars.png);
-    background-size:cover;
 }
 
-.slat-7{
+.slat-7 {
     background-image: url(../images/backgrounds/background-green-stars.png);
-    background-size:cover;
-}
-
-.hero-homepage {
-    height: 48vw;
-    max-height: 42em;
-    min-height: 32em;
-    background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
 }
