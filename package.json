@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
-    "build": "vite build",
+    "build": "vite build"
   },
   "devDependencies": {
     "vite": "^5.3.4"
