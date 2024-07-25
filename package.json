@@ -4,10 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port 3000",
-    "build": "vite",
-    "preview": "vite",
-    "start": "vite"
+    "start": "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "build": "vite build",
   },
   "devDependencies": {
     "vite": "^5.3.4"
