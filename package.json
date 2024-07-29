@@ -1,0 +1,13 @@
+{
+  "name": "code-camp-2024",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.3.4"
+  }
+}
