@@ -1,0 +1,57 @@
+.reply-container {
+  background: radial-gradient(
+    ellipse farthest-corner at 0% 0%,
+    #124358,
+    #042243 133%
+  );
+  padding: 20px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.reply-container h2 {
+  color: #ffffff;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.reply-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.reply-form textarea {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group input {
+  width: 48%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #40b4e5;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #b36644;
+}
