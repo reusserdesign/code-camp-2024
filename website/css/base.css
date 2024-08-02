@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
+    
     color:aliceblue;
     font-family: "Kode Mono", sans-serif;
     font-weight: 400;
@@ -34,12 +34,46 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-bar {
-    padding-left:2rem;
-    background: radial-gradient(ellipse farthest-corner at 0% 0%, #124358, #042243 133%);
-    height:70px;
+    background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
+    box-shadow: 10px 10px 50px #44497a;
+    z-index:100;
+    position:relative;
 }
 
+.nav-items{
+  
+}
+
+.nav-items a{
+    padding-top:20px;
+    padding-left:40px;
+    text-decoration:none;
+    font-weight:bold;
+    color:white;
+    font-size:20px;
+}
+
+.nav-items a:hover{
+    color:rgb(255, 196, 0);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .nav-items {
+    padding-top: 90px;
+  }
+
+  .content{
+    position:inherit;
+    z-index:50;
+  }
+
 .home-page-slat{
+  
     background: radial-gradient(ellipse farthest-corner at 0% 0%, #40B4E5, #1e5288 133%);
     /*background: radial-gradient(ellipse farthest-corner at 0% 0%, #280941, #651886 133%);*/
     height: 48vw;
@@ -47,6 +81,7 @@ h1, h2, h3, h4, h5, h6 {
     min-height: 32em;
     overflow:hidden;
     background-size: cover;
+    z-index:20;
 }
 
 .home-page-slat > div {
@@ -54,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: space-between;
     align-items: center;
     padding: 4rem 2rem 2rem 2rem;
+   
 }
 
 .slat-2 {
@@ -82,4 +118,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .slat-7 {
     background-image: url(../images/backgrounds/background-green-stars.png);
+}
+
+.slat-8 {
+    background-image: url(../images/backgrounds/Cereal-sea.jpeg);
 }
